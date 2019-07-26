@@ -1,0 +1,41 @@
+<html>
+   <head></head>
+   <style>
+       * {
+           padding: 0;
+           margin: 0;
+       }
+       #chars_image {
+           display: inline-block;
+           width: 49%;
+           font-size: 10px;
+           line-height: 14px;
+       }
+   </style>
+   <body>
+       <pre id="chars_image"></pre>
+      <video id="video" width="49%" src="../badApple.mp4" autobuffer autoplay muted>
+           <div>
+               <p>You must have an HTML5 capable browser.</p>
+           </div>
+       </video>
+       <script type="text/javascript">
+           window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
+           let cb = (result) => {
+               let chars_image = document.getElementById("chars_image"),
+                   i = 0
+               run = () => {
+                   if (i >= result.length) {
+                       clearTimeout(timer)
+                   } else {
+                       chars_image.innerHTML = result[i]
+                       timer = setTimeout(run, 40)
+                   }
+                   i++;
+               }
+               timer = setTimeout(run, 0)
+           }
+       </script>
+       <script type="text/javascript" src="../temp_ascii/badAppleHtml.json?callback=cb"></script>
+   </body>
+</html>
