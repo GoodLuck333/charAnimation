@@ -28,9 +28,9 @@
 
 ##### 使用方法
 
-python3 脚本 视频文件名 宽*高
-
-例: python3 charAnimationPrint.py test.mp4 90*40
+> python3 脚本 视频文件名 宽*高
+> 
+> 例: python3 charAnimationPrint.py test.mp4 90*40
 
 #### 【JSON版介绍】
 
@@ -41,9 +41,9 @@ python3 脚本 视频文件名 宽*高
 
 ##### 使用方法
 
-python3 脚本 视频文件名 宽*高
-
-例: python3 charAnimationJson.py test.mp4 90*40
+> python3 脚本 视频文件名 宽*高
+> 
+> 例: python3 charAnimationJson.py test.mp4 90*40
 
 #### 【Html版介绍】
 
@@ -54,8 +54,8 @@ python3 脚本 视频文件名 宽*高
 
 ##### 使用方法
 
-python3 脚本 视频文件名 宽*高
-
-例: python3 charAnimationHTML.py test.mp4 90*40
+> python3 脚本 视频文件名 宽*高
+> 
+> 例: python3 charAnimationHTML.py test.mp4 90*40
 
                                                                                     By:GoodLuck333
