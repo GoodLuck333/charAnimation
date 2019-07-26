@@ -105,6 +105,6 @@ class CharAnimation:
 
 if __name__ == '__main__':
     if len(sys.argv) != 3:
-        print('参数错误，请参考(python3 脚本 视频文件名 宽*高)：python3 videoChar.py test.mp4 90*40')
+        print('参数错误，请参考(python3 脚本 视频文件名 宽*高)：python3 charAnimationHTML.py test.mp4 90*40')
     else:
         CharAnimation(sys.argv[1], sys.argv[2]).run()
